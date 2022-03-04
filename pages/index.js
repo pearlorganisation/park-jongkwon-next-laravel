@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -136,7 +136,7 @@ export default function Home() {
                         <div className="col-md-10 mx-auto top-pick-carousel-col">
                           <div>
                             <div className="card card-display">
-                              <Image src={e.url} className="card-img-top top-pick-image" alt="..." layout="fill"/>
+                              <img src={e.url} className="card-img-top top-pick-image" alt="..." layout="fill"/>
                               <div className="card-body">
                                 <h5 className="card-title">{e.title}</h5>
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus molestie nisl vitae hendrerit. Integer sed dolor vel metus convallis egestas at eget purus.</p>
@@ -178,7 +178,7 @@ export default function Home() {
                         <div className="col-md-10 mx-auto top-pick-carousel-col">
                           <div>
                             <div className="card card-display">
-                              <Image src="/female.jpg" className="card-img-top top-pick-image" alt="..." layout="fill" />
+                              <img src="/female.jpg" className="card-img-top top-pick-image" alt="..." layout="fill" />
                               <div className="card-body">
                                 <h5 className="card-title">{e.name}</h5>
                                 <h5>Rank:{e.rank}</h5>
@@ -279,7 +279,7 @@ export default function Home() {
                         <div className="col-md-10 mx-auto top-pick-carousel-col">
                           <div>
                             <div className="card card-display">
-                              <img src="/creame3.jpg" className="card-img-top top-pick-image" alt="..." />
+                              <img src="/creame3.jpg" className="card-img-top top-pick-img" alt="..." />
                               <div className="card-body">
                                 <h5 className="card-title">{e.name}</h5>
                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus molestie nisl vitae hendrerit. Integer sed dolor vel metus convallis egestas at eget purus.</p>
